@@ -1,18 +1,18 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'https://baghag.herokuapp.com/admin/');
+define('HTTP_SERVER', 'https://baghag.herokuapp.com/admin_bh/');
 define('HTTP_CATALOG', 'https://baghag.herokuapp.com/');
 
 // HTTPS
-define('HTTPS_SERVER', 'https://baghag.herokuapp.com/admin/');
+define('HTTPS_SERVER', 'https://baghag.herokuapp.com/admin_bh/');
 define('HTTPS_CATALOG', 'https://baghag.herokuapp.com/');
 
 // DIR
-define('DIR_APPLICATION', '/app/admin/');
+define('DIR_APPLICATION', '/app/admin_bh/');
 define('DIR_SYSTEM', '/app/system/');
 define('DIR_IMAGE', '/app/image/');
-define('DIR_LANGUAGE', '/app/admin/language/');
-define('DIR_TEMPLATE', '/app/admin/view/template/');
+define('DIR_LANGUAGE', '/app/admin_bh/language/');
+define('DIR_TEMPLATE', '/app/admin_bh/view/template/');
 define('DIR_CONFIG', '/app/system/config/');
 define('DIR_CACHE', '/app/system/storage/cache/');
 define('DIR_DOWNLOAD', '/app/system/storage/download/');
