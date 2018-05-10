@@ -1,0 +1,195 @@
+/******************************************************
+ * @package Pav Opencart Theme Framework for Opencart 1.5.x
+ * @version 1.1
+ * @author http://www.pavothemes.com
+ * @copyright	Copyright (C) Augus 2013 PavoThemes.com <@emai:pavothemes@gmail.com>.All rights reserved.
+ * @license		GNU General Public License version 2
+*******************************************************/
+// Center-align a block level element
+ 
+
+/* box */
+.tab-nav{    
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    .nav-tabs{
+        border: medium none;
+        display: inline-block;
+        padding: 0 11px;
+        position: relative;
+        &:before{
+            background:@theme-color-fivedary ;
+            content: "";
+            .size(2000px,1px);
+            position: absolute;
+            right: 100%;
+            top: 50%;
+            z-index: 1;
+        }
+         &:after{
+            background: @theme-color-fivedary ;
+            content: "";
+            .size(2000px,1px);
+            left: 100%;
+            position: absolute;
+            top: 50%;
+            z-index: 1;
+        }
+    }
+}
+.border{
+    .box{
+        border-bottom: 1px solid @theme-color-secondary;
+    }
+}
+.box {
+    margin-bottom: @box-module-margin;
+    position: relative;
+    >img {
+        padding: @box-module-heading-padding + 19 0;
+    }
+    .box-heading {       
+        text-transform: uppercase;
+        position: relative;
+        color: @theme-color;
+        font-family: @box-module-heading-font ;
+        font-size: @box-module-heading-fontsize;
+        letter-spacing: 2px;
+        text-align: center;
+        overflow: hidden;
+        span{
+            padding: 0 25px;
+            position: relative;
+            display: inline-block;
+            &:before{
+                background:@theme-color-fivedary ;
+                content: "";
+                .size(2000px,1px);
+                position: absolute;
+                right: 100%;
+                top: 50%;
+                z-index: 1;
+            }
+            &:after{
+                background: @theme-color-fivedary ;
+                content: "";
+                .size(2000px,1px);
+                left: 100%;
+                position: absolute;
+                top: 50%;
+                z-index: 1;
+            }
+        }
+    }
+    .box-title{
+        font-family: @box-module-heading-font ;
+        font-size: @box-module-heading-fontsize;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: @theme-color;
+        padding: 20px 0;
+    }
+    .box-content{
+        margin-top: 40px;
+    }
+    .media-body{
+        overflow: visible;
+        padding-top: @box-module-heading-padding;
+        strong{
+            color: @box-module-heading-color;
+            font-family: @box-module-heading-font ;
+            font-size: @box-module-heading-fontsize + 4;
+            letter-spacing: 3px;
+            font-weight: normal;
+        }
+    }
+    address{
+        strong{
+            color: @box-module-heading-color;
+            font-size: @box-module-heading-fontsize;
+        }
+    }
+    .social li{
+        display: inline-block;
+        margin-right: @box-module-margin  - 8;
+        span{
+            display: none;
+        }
+    }
+
+    &.margin{
+        margin: 20px 0;
+        .box-content{
+            margin: 0;
+        }
+    }
+    &.nomargin{
+        .box-content{
+            margin: 0;
+        }
+    }
+
+}
+
+.sidebar {
+    .box {
+            .box-heading {
+                background:@box-module-heading-color;
+                color: @theme-color-primary;
+                letter-spacing: 0;
+                line-height: @line-height-computed;
+                padding: @product-padding - 4 @product-padding - 1;  
+                font-family:@font-family-base;
+                font-size:@font-size-base;    
+                text-align: left;  
+            span{
+                &:before,&:after{
+                    content: none;
+                }
+            } 
+             &:before {
+                color: @theme-color-primary;
+                font-size: @font-size-base - 1;
+                content: "\f0c9";
+                display: inline-block;
+                font-family: 'FontAwesome';
+                font-style: normal;
+                font-weight: normal;
+                line-height: 1;
+                position: absolute;
+                left: 10px;
+                top: 10px;
+            }
+            &:after {
+                color: @theme-color-primary;
+                font-size: @font-size-base - 1;
+                content: "\f107";
+                display: inline-block;
+                font-family: 'FontAwesome';
+                font-style: normal;
+                font-weight: normal;
+                line-height: 1;
+                position: absolute;
+                right: 20px;
+                top: 10px;
+            }
+        } 
+        .box-content{
+            margin: 0;
+        }
+        .product-block{
+            .price{
+                padding-top: @product-padding + 19;
+            }
+        }   
+    }
+    .special{ 
+        .box-heading:before{
+          content: "\f005";
+        }
+    } 
+}
+.media > .fa.pull-left{
+    padding-left: 0;
+}

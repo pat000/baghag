@@ -1,0 +1,64 @@
+
+.border-exclude-top(@border-deep; @border-type ; @border-color ){
+	border-bottom: @border-deep @border-type @border-color ;
+    border-left: @border-deep @border-type @border-color ;
+    border-right: @border-deep @border-type @border-color ;
+
+}
+
+.border-exclude-bottom(@border-deep; @border-type ; @border-color ){
+	border-top: @border-deep @border-type @border-color ;
+    border-left: @border-deep @border-type @border-color ;
+    border-right: @border-deep @border-type @border-color ;
+
+}
+.border-exclude-right(@border-deep; @border-type ; @border-color ){
+  border-top: @border-deep @border-type @border-color ;
+  border-left: @border-deep @border-type @border-color ;
+  border-bottom: @border-deep @border-type @border-color ;
+}
+
+ 
+.rounded-corners (@radius: 5px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.clearboxstyle(){
+  background: none;
+  border:none;
+}
+.arrow-border-no-top(@bwidth:7px; @bcolor:#FFF; @width:7px; @height:7px){
+  border-bottom: @bwidth solid @bcolor;
+  border-left: @bwidth - 1  solid transparent;
+  border-right: @bwidth - 1 solid transparent;
+  width: @width;
+  height : @height;
+}
+.swap-image-hide(){
+    visibility: hidden;
+}
+.swap-image-show(){
+    visibility: visible;
+}
+.grayscale-gray {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(1); /* For Webkit browsers */
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: gray; /* For IE 6 - 9 */            
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */        
+  //.transition (all 0.2s ease-in-out 0.4s); /* Fade to color for Chrome and Safari */
+}
+.grayscale-color {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");            
+}

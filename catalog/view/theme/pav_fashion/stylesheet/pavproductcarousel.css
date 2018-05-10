@@ -1,0 +1,31 @@
+.productcarousel {
+	position: relative;
+}
+.productcarousel .carousel-control{
+	z-index:10
+}
+.noline{
+	/* margin: 40px 0 20px; */
+}
+.noline .box-heading{
+	padding-bottom: 20px;
+}
+.noline.sidebar .box-content{
+	margin: 0;
+}
+.noline.sidebar .box-heading{
+	text-align: left;
+	padding-bottom: 0;
+}
+.noline.sidebar .box-heading span{
+	padding:0;
+}
+.noline.sidebar .product-block{
+	text-align: left;
+}
+.noline.sidebar .price-old{
+	font-family: 'brandon_light';
+}
+.noline.sidebar .box-heading span:before,.noline.sidebar .box-heading span:after{
+	content: none;
+}

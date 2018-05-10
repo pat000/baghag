@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+	<footer>
+		 <title>Footer Block</title>
+		 <description></description>
+	 	 <module>
+	 	 	<title>Contact</title>
+	 	 	<field>
+	 	 		<name>widget_logo</name>
+	 	 		<label>Logo</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default> <![CDATA[
+					<div class="box logo-ft"><img alt="logo-footer" src="image/catalog/logo_footer.png" /></div>
+	 	 		 ]]> </default>		
+	 		</field>
+	 	 </module>	
+	 	 <module>
+	 	 	<title>About Us</title>
+	 	 	<field>
+	 	 		<name>widget_about_us</name>
+	 	 		<label>About Us</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default> <![CDATA[
+					<p>Sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+	 	 		 ]]> </default>		
+	 		</field>
+	 	 </module>	
+	 	  <module>
+	 	 	<title>Social</title>
+	 	 	<field>
+	 	 		<name>widget_social</name>
+	 	 		<label>Social</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default> <![CDATA[
+					<ul class="social">
+						<li><a class="facebook" href="#"><i class="fa fa-facebook stack"><span>Facebook</span></i></a></li>
+						<li><a class="twitter" href="#"><i class="fa fa-twitter stack"><span>Twitter</span></i></a></li>
+						<li><a class="google" href="#"><i class="fa fa-google-plus stack"><span>Google Plus</span></i></a></li>
+						<li><a class="youtube" href="#"><i class="fa fa-youtube stack"><span>Youtube</span></i></a></li>
+						<li><a class="skype" href="#"><i class="fa fa-skype stack"><span>Skype</span></i></a></li>
+					</ul>
+	 	 		 ]]> </default>		
+	 		</field>
+	 	 </module>	
+	 	 <module>
+	 	 	<title>Call Us</title>
+	 	 	<field>
+	 	 		<name>widget_call_us</name>
+	 	 		<label>Call Us</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default> <![CDATA[
+					<div class="box-services">
+					<p>Monday - Friday .................. 8.00 to 18.00</p>
+
+					<p>Saturday ......................... 9.00 to 21.00</p>
+
+					<p>Sunday ........................... 10.00 to 21.00</p>
+					<span class="iconbox pull-left"><i class="fa fa-phone">&nbsp;</i></span>
+
+					<div class="media-body"><span>Call us: <strong> 0123 456 789</strong></span></div>
+					</div>
+	 	 		 ]]> </default>		
+	 		</field>
+	 	 </module>
+
+	 	  <module>
+	 	 	<title>Contact Us</title>
+	 	 	<field>
+	 	 		<name>widget_contact_us</name>
+	 	 		<label>Contact Us</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default> <![CDATA[
+					<address><strong>Warehouse &amp; Offices</strong><br />
+					12345 Street name, California, USA<br />
+					0123 456 789 / 0123 456 788</address>
+
+					<address><strong>Retail Store</strong><br />
+					54321 Street name, California, USA<br />
+					0123 456 789 / 0123 456 788</address>
+	 	 		 ]]> </default>		
+	 		</field>
+	 	 </module>
+
+	</footer>	
+	
+</theme>
+

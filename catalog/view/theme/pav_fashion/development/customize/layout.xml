@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<themeeditor>
+	<author>pavotheme</author>
+	<name>Live Theme Editor</name>	
+	<layout>
+
+		<item>
+			<label>Offcanvas menu</label>
+			<block>offcanvas</block>
+			<default>category</default>
+			<option>
+				 <text>Category</text>
+				 <value>category</value>
+			</option> 
+			<option>
+				 <text>Megamenu</text>
+				 <value>megamenu</value>
+			</option>
+			 
+		</item>		
+		
+		<item>
+			<label>Main Content Home FullWidth</label>
+			<block>home_container_full</block>
+			<default>0</default>
+			<option>
+				<text>No</text>
+				<value>0</value>
+			</option> 
+			<option>
+				<text>Yes</text>
+				<value>1</value>
+			</option>
+		</item>
+
+
+		<item>
+			<label>Template Layout Mode</label>
+			<block>template_layout</block>
+			<default>fullwidth</default>
+			<option>
+				<text>Full Width</text>
+				<value>fullwidth</value>
+			</option> 
+			<option>
+				<text>Boxed Large</text>
+				<value>boxed-lg</value>
+			</option>
+		</item>
+
+		<item>
+			<label>Header Layout</label>
+			<block>header_layout</block>
+			<default>default</default>
+			<option>
+				<text>default</text>
+				<value>default</value>
+			</option> 
+			<option>
+				<text>fullslide</text>
+				<value>fullslide</value>
+			</option>
+			<option>
+				<text>home3</text>
+				<value>home3</value>
+			</option>	
+			<option>
+				<text>home4</text>
+				<value>home4</value>
+			</option>	
+		</item>
+
+		<item>
+			<label>Enable Quickview</label>
+			<block>Quickview</block>
+			<default>0</default>
+			<option>
+				<text>Enable</text>
+				<value>1</value>
+			</option> 
+			<option>
+				<text>Disable</text>
+				<value>0</value>
+			</option>
+		</item>
+
+		<item>
+			<label>Logo Type</label>
+			<block>logo_type</block>
+			<default>logo-theme</default>
+			<option>
+				<text>Logo In Theme</text>
+				<value>logo-theme</value>
+			</option> 
+			<option>
+				<text>Logo Opencart</text>
+				<value>logo-opencart</value>
+			</option> 
+		</item>
+
+		<item>
+			<label>Product In Listing Layout</label>
+			<block>product_layout</block>
+			<default>default</default>
+			<option>
+				<text>Default</text>
+				<value>default</value>
+			</option> 
+			<option>
+				<text>Swap Image</text>
+				<value>swap</value>
+			</option> 
+		</item>
+		
+		<item>
+			<block>StickyMenu</block>
+			<default>main-menu-fixed</default>
+			<option>
+				 <text>Fixed</text>
+				 <value>main-menu-fixed</value>
+			</option> 
+			<option>
+				 <text>No Fixed</text>
+				 <value>no-fixed</value>
+			</option>
+		</item>
+		
+	</layout>
+</themeeditor>
