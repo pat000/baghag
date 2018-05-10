@@ -1019,7 +1019,7 @@ body .home-home4 .img-overlay:hover a:before {
 }
 .home-default {
   margin-bottom: 30px;
-  background: url(//localhost/bag_hag/image/bg_3.png) repeat-x;
+  background: url(/image/bg_3.png) repeat-x;
     background-position: 200px -100px;
 }
 .home-default .inner {
