@@ -6,17 +6,17 @@ define('HTTP_SERVER', 'https://baghag.herokuapp.com/');
 define('HTTPS_SERVER', 'https://baghag.herokuapp.com/');
 
 // DIR
-define('DIR_APPLICATION', 'https://baghag.herokuapp.com/catalog/');
-define('DIR_SYSTEM', 'https://baghag.herokuapp.com/system/');
-define('DIR_IMAGE', 'https://baghag.herokuapp.com/image/');
-define('DIR_LANGUAGE', 'https://baghag.herokuapp.com/catalog/language/');
-define('DIR_TEMPLATE', 'https://baghag.herokuapp.com/catalog/view/theme/');
-define('DIR_CONFIG', 'https://baghag.herokuapp.com/system/config/');
-define('DIR_CACHE', 'https://baghag.herokuapp.com/system/storage/cache/');
-define('DIR_DOWNLOAD', 'https://baghag.herokuapp.com/system/storage/download/');
-define('DIR_LOGS', 'https://baghag.herokuapp.com/system/storage/logs/');
-define('DIR_MODIFICATION', 'https://baghag.herokuapp.com/system/storage/modification/');
-define('DIR_UPLOAD', 'https://baghag.herokuapp.com/system/storage/upload/');
+define('DIR_APPLICATION', '/catalog/');
+define('DIR_SYSTEM', '/system/');
+define('DIR_IMAGE', '/image/');
+define('DIR_LANGUAGE', '/catalog/language/');
+define('DIR_TEMPLATE', '/catalog/view/theme/');
+define('DIR_CONFIG', '/system/config/');
+define('DIR_CACHE', '/system/storage/cache/');
+define('DIR_DOWNLOAD', '/system/storage/download/');
+define('DIR_LOGS', '/system/storage/logs/');
+define('DIR_MODIFICATION', '/system/storage/modification/');
+define('DIR_UPLOAD', '/system/storage/upload/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
